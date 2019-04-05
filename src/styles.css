@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+footer {
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
+body {
+  width: 100%;
+  font-size: 14px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #289a27;
+}
+
+.incorrect {
+  background-color: #c41a21;
+}
+
+.buttons {
+  padding: 10px 10px 10px 0;
+}
