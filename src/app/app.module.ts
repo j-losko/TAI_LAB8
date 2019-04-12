@@ -21,6 +21,7 @@ import { FormsModule } from '@angular/forms';
 import { BlogHomeComponent } from './blog-home/blog-home.component';
 import { TextFormatDirective } from './directives/text-format.directive';
 import { FilterPipe } from './pipes/filter.pipe';
+import { SelectizeComponent } from './components/selectize/selectize.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { FilterPipe } from './pipes/filter.pipe';
     SearchBarComponent,
     BlogHomeComponent,
     TextFormatDirective,
-    FilterPipe
+    FilterPipe,
+    SelectizeComponent
   ],
   imports: [
     BrowserModule,
