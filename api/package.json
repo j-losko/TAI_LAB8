@@ -1,0 +1,19 @@
+{
+  "name": "server-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "author": "Jakub Łośko",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.6"
+  }
+}
