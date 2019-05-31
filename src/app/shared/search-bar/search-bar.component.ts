@@ -1,7 +1,6 @@
-
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {Router, ActivatedRoute} from '@angular/router';
-  
+
 
 @Component({
  selector: 'search-bar',
@@ -21,10 +20,10 @@ export class SearchBarComponent implements OnInit {
     this.sendFilter();
   });
  }
- 
+
  sendFilter() {
   this.router.navigate(['/blog'], {queryParams: {name:
  this.filterText}});
   this.name.emit(this.filterText);
- } 
+ }
 }
