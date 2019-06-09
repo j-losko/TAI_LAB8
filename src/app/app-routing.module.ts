@@ -5,7 +5,8 @@ import {ContactComponent} from "./components/contact/contact.component";
 import {HomeComponent} from "./components/home/home.component";
 import {QuizComponent} from "./components/quiz/quiz.component";
 import {BlogItemDetailsComponent} from "./components/blog-item-details/blog-item-details.component";
-import {LoginComponent} from "./components/login/login.component"
+import {LoginComponent} from "./components/login/login.component";
+import {AddPostComponent} from "./components/add-post/add-post.component";
 
 const routes: Routes = [
   {
@@ -19,7 +20,6 @@ const routes: Routes = [
   {
     path: 'blog',
     component: BlogHomeComponent,
-
   },
   {
     path: 'quiz',
@@ -32,6 +32,10 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent
+  },
+  {
+    path: 'add-post',
+    component: AddPostComponent
   }
 ];
 
